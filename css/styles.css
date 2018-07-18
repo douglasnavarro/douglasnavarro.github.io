@@ -20,7 +20,8 @@
 }
 
 a {
-    padding: .5%;
+    padding-left: 1%;
+    padding-right: 1%;
     color:white;
 }
 
@@ -39,7 +40,7 @@ hr {
 }
 
 #navigation {
-    margin:1%;
+    margin-top:20px;
 }
 
 #particles-js {
