@@ -16,9 +16,20 @@
         margin-top: 2%;
         font-size: 26px;
     }
+    h2 {
+        font-size: 24px;
+    }
     h4 {
         font-size: 16px;
     }
+    .project-logo {
+        margin-bottom:1%;
+        max-width:160px;
+    }
+}
+
+.project-logo {
+    margin-bottom:1%;
 }
 
 svg {
@@ -38,6 +49,7 @@ svg {
 
 hr {
     border-color:white;
+    width: 60%;
 }
 
 a {
