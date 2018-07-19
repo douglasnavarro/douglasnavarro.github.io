@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
-  <body style="overflow:hidden;">
+  <body style="overflow: hidden; align-items: center; display: flex; height: 100vh;">
     <div id="particles-js"></div>
-    <div class="container" style="padding-top: 10%;">
+    <div class="container">
         <div class="row" id="avatar">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center fade-in">
                 <img class="avatar img-fluid"src="images/avatar.jpg" alt="avatar">
             </div>
         </div>
         <div class="row" id="name">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center fade-in">
                 <h1>Douglas Navarro</h1>
             </div>
         </div>
         <div class="row" id="sub">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center fade-in">
                 <h4>Electronics engineer and software developer</h4>
             </div>
         </div>
@@ -36,23 +36,31 @@
         </div>
         <div class="row" id="social-media">
             <div class="col-md-12 text-center">
-                <a target="_blank" href="https://www.linkedin.com/in/douglasnavarro/">
-                    <img class="img-fluid" src="images/linkedin_icon.png" alt="linkedin icon" href="https://www.linkedin.com/in/douglasnavarro/">
+                <a target="_blank" href="https://www.linkedin.com/in/douglasnavarro">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="#ffffff">
+                        <path class="icon-animation" fill="#ffffff" stroke="#ffffff" stroke-width="0.1" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/>
+                    </svg>
                 </a>
                 <a target="_blank" href="https://github.com/douglasnavarro">
-                    <img class="img-fluid" src="images/github_icon.png" alt="github icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" id="github-icon">
+                        <path class="icon-animation" fill="#ffffff" stroke="#fff" stroke-width="0.1" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
                 </a>
                 <a target="_blank" href="https://facebook.com/douglas.navarro.9">
-                    <img class="img-fluid" src="images/facebook_icon.png" alt="facebook icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" id="facebook-icon">
+                        <path class="icon-animation" fill="#ffffff" stroke="#ffffff" stroke-width="0.1" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/>
+                    </svg>
                 </a>
                 <a target="_blank" href="https://steamcommunity.com/id/astronnauta">
-                    <img class="img-fluid" src="images/steam_icon.png" alt="steam icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" id="steam-icon">
+                        <path class="icon-animation" fill="#ffffff" stroke="#ffffff" stroke-width="0.1" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-4.738 0-8.71-3.317-9.735-7.749l3.752 1.578c.244 1.235 1.338 2.182 2.67 2.171 1.477-.014 2.662-1.211 2.672-2.682l.006-.003 3.087-2.301c1.975.021 3.548-1.571 3.548-3.506 0-1.937-1.572-3.508-3.508-3.508-1.915 0-3.47 1.535-3.506 3.441l-2.263 3.166c-.572-.012-1.087.145-1.535.438l-5.123-2.155c.555-4.994 4.797-8.89 9.935-8.89 5.514 0 10 4.486 10 10s-4.486 10-10 10zm-2.753-8.091l-1.322-.555c.249-.094.492-.137.738-.137 1.138 0 2.074.926 2.084 2.065.01 1.153-.912 2.094-2.066 2.104-.867.004-1.602-.513-1.928-1.248l1.324.556c.769.323 1.653-.039 1.977-.807.324-.768-.037-1.654-.807-1.978zm2.861-4.401c0-1.315 1.069-2.384 2.384-2.384s2.384 1.069 2.384 2.384c0 1.314-1.069 2.385-2.384 2.385s-2.384-1.07-2.384-2.385zm2.384 1.801c-.994 0-1.802-.807-1.802-1.8s.808-1.801 1.802-1.801c.993 0 1.8.809 1.8 1.801 0 .992-.807 1.8-1.8 1.8z"/>
+                    </svg>
                 </a>
             </div>
         </div>
         <div class="row" id="navigation">
             <div class="col-md-12 text-center">
-                <nav class="nav justify-content-center">
+                <nav class="nav justify-content-center fade-in">
                     <a class="nav-link" href="#">About me</a>
                     <a class="nav-link" href="#">Projects</a>
                     <a class="nav-link" href="#">Blog</a>
