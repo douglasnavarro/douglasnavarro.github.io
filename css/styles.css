@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
     .avatar {
         border-radius: 50%;
-        max-width: 100px;
+        max-width: 150px;
     }
     p {
         font-size: 14px;
