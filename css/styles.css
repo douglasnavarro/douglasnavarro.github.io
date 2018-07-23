@@ -25,6 +25,12 @@
     .project-logo {
         max-width:160px;
     }
+    /* Stroke animation feels laggy on mobile, so keep it as a simple fade in */
+    body .icon-animation {
+        animation: 1s fadein;
+        -webkit-animation: 1s fadein;
+        fill-opacity:1;
+    }
 }
 
 button {
