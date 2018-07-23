@@ -129,8 +129,8 @@ html {
     animation: icon-animate 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) forwards, paint 1s linear forwards ;
     animation-delay: 1s, 2.5s;
     -webkit-animation-delay: 1s, 2.5s;
-    stroke-dasharray: 76;
-    stroke-dashoffset: 76;
+    stroke-dasharray: 76px;
+    stroke-dashoffset: 76px;
     fill-opacity : 0;
 }
 
