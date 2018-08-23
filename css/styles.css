@@ -4,7 +4,7 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px), screen and (max-height:720px){
+@media only screen and (max-width: 600px), screen and (max-height:500px){
     .avatar {
         max-width: 200px;
     }
