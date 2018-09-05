@@ -52,6 +52,7 @@ p {
 
 .project-logo {
     margin-bottom:1%;
+    max-width:250px;
 }
 
 svg {
