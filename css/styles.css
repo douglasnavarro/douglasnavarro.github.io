@@ -32,6 +32,13 @@
     }
 }
 
+button:hover {
+    background: white;
+    color:black;
+    transition: color .5s, background .5s;
+    -webkit-transition: color .5s, background .5s;
+}
+
 button {
     background:transparent;
     border-width: 1px;
