@@ -156,7 +156,7 @@ function moveShots(shots) {
 }
 
 function cleanShots(shots) {
-  return shots.filter(shot => shot.vector.mag() < 300);
+  return shots.filter(shot => shot.vector.mag() < 0.8 * windowHeight);
 }
 
 function gameIsOver(zombies) {
