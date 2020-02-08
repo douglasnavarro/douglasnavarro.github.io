@@ -19,32 +19,32 @@ function preload() {
 
 function drawBackground(background) {
   push();
-  translate(width / 2, height / 2);
-  image(background, 0, 0, 600, 600);
+  translate(windowWidth / 2, windowHeight / 2);
+  image(background, 0, 0, windowWidth, windowHeight);
   pop();
 }
 
 function drawGameScore(score) {
   push();
-  translate(width / 8, height / 2);
+  translate(windowWidth / 8, windowHeight / 2);
   fill(0xff);
   textSize(32);
-  text(`Score: ${score}`, 0, 0.9 * height / 2);
+  text(`Score: ${score}`, 0, 0.9 * windowHeight / 2);
   pop();
 }
 
 function gameOverEffects() {
   push();
-  translate(width / 8, height / 2);
+  translate(windowWidth / 8, windowHeight / 2);
   fill(0xff);
   textSize(42);
-  text('Game Over!', 0, 0.7 * height / 2);
+  text('Game Over!', 0, 0.7 * windowHeight / 2);
   pop();
 }
 
 function drawHero(hero) {
   push();
-  translate(width / 2, height / 2);
+  translate(windowWidth / 2, windowHeight / 2);
   noFill();
   line(0, 0, hero.x, hero.y);
   rotate(hero.heading() + PI / 2);
@@ -54,7 +54,7 @@ function drawHero(hero) {
 
 function drawZombie(zombie) {
   push();
-  translate(width / 2, height / 2);
+  translate(windowWidth / 2, windowHeight / 2);
   translate(zombie.vector.x, zombie.vector.y);
   rotate(zombie.vector.heading() - PI / 2);
   image(zombieImg, 0, 0, 50, 50);
@@ -63,7 +63,7 @@ function drawZombie(zombie) {
 
 function drawShot(shot) {
   push();
-  translate(width / 2, height / 2);
+  translate(windowWidth / 2, windowHeight / 2);
   circle(shot.vector.x, shot.vector.y, shot.diameter);
   pop();
 }
@@ -166,7 +166,7 @@ function gameIsOver(zombies) {
 // P5Js functions: initial setup, game loop and input polling
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
   gameHero = p5.Vector.fromAngle(angle = 0, magnitude = 1);
   gameShots = [];
