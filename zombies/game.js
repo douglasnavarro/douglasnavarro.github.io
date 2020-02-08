@@ -114,7 +114,7 @@ function createShot(angle) {
 
 function spawnNewZombie(zombies, threshold) {
   if (zombies.length < threshold) {
-    zombies.push(createZombie(distance = random(250, 350)));
+    zombies.push(createZombie(distance = random(0.2 * windowHeight, 0.8 * windowHeight)));
   }
   return zombies;
 }
