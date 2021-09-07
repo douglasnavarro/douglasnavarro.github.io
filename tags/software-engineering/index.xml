@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>software engineering - Tag - Douglas Navarro</title>
+        <link>https://douglasnavarro.me/tags/software-engineering/</link>
+        <description>software engineering - Tag - Douglas Navarro</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 21 Jan 2021 14:38:25 -0300</lastBuildDate><atom:link href="https://douglasnavarro.me/tags/software-engineering/" rel="self" type="application/rss+xml" /><item>
+    <title>Don&#39;t just write code, solve problems</title>
+    <link>https://douglasnavarro.me/posts/dont_just_write_code_solve_problems/</link>
+    <pubDate>Thu, 21 Jan 2021 14:38:25 -0300</pubDate>
+    <author>Author</author>
+    <guid>https://douglasnavarro.me/posts/dont_just_write_code_solve_problems/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80" referrerpolicy="no-referrer">
+            </div><p>You’ve gotten stuck so many times while coding. We all have. Some hard, nasty problem. Many conditions. Maybe this can be broken down into smaller problems. Maybe some dynamic programming could help. There must be some famous algorithm behind this.</p>]]></description>
+</item></channel>
+</rss>

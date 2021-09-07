@@ -2,8 +2,11 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://douglasnavarro.me/</loc><lastmod>2021-09-06T14:38:25-03:00</lastmod></url><url>
-            <loc>https://douglasnavarro.me/posts/first_post/</loc><lastmod>2021-09-06T14:38:25-03:00</lastmod></url><url>
-            <loc>https://douglasnavarro.me/posts/</loc><lastmod>2021-09-06T14:38:25-03:00</lastmod></url><url>
-            <loc>https://douglasnavarro.me/categories/</loc></url><url>
-            <loc>https://douglasnavarro.me/tags/</loc></url></urlset>
+            <loc>https://douglasnavarro.me/tags/career/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/posts/dont_just_write_code_solve_problems/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/posts/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/tags/software-engineering/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/tags/</loc><lastmod>2021-01-21T14:38:25-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/posts/how_to_be_an_effective_team_player/</loc><lastmod>2020-07-23T21:32:39-03:00</lastmod></url><url>
+            <loc>https://douglasnavarro.me/categories/</loc></url></urlset>

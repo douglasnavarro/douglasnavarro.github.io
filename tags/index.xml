@@ -3,5 +3,19 @@
         <title>Tags - Tag - Douglas Navarro</title>
         <link>https://douglasnavarro.me/tags/</link>
         <description>Tags - Tag - Douglas Navarro</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://douglasnavarro.me/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 21 Jan 2021 14:38:25 -0300</lastBuildDate><atom:link href="https://douglasnavarro.me/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>career</title>
+    <link>https://douglasnavarro.me/tags/career/</link>
+    <pubDate>Thu, 21 Jan 2021 14:38:25 -0300</pubDate>
+    <author>Author</author>
+    <guid>https://douglasnavarro.me/tags/career/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>software engineering</title>
+    <link>https://douglasnavarro.me/tags/software-engineering/</link>
+    <pubDate>Thu, 21 Jan 2021 14:38:25 -0300</pubDate>
+    <author>Author</author>
+    <guid>https://douglasnavarro.me/tags/software-engineering/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

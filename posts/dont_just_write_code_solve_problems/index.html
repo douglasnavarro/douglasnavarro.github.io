@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Don&#39;t just write code, solve problems - Douglas Navarro</title><meta name="Description" content=""><meta property="og:title" content="Don&#39;t just write code, solve problems" />
+<meta property="og:description" content="You’ve gotten stuck so many times while coding. We all have. Some hard, nasty problem. Many conditions. Maybe this can be broken down into smaller problems. Maybe some dynamic programming could help. There must be some famous algorithm behind this." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://douglasnavarro.me/posts/dont_just_write_code_solve_problems/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-21T14:38:25-03:00" />
+<meta property="article:modified_time" content="2021-01-21T14:38:25-03:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Don&#39;t just write code, solve problems"/>
+<meta name="twitter:description" content="You’ve gotten stuck so many times while coding. We all have. Some hard, nasty problem. Many conditions. Maybe this can be broken down into smaller problems. Maybe some dynamic programming could help. There must be some famous algorithm behind this."/>
+<meta name="application-name" content="Douglas Navarro">
+<meta name="apple-mobile-web-app-title" content="Douglas Navarro"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://douglasnavarro.me/posts/dont_just_write_code_solve_problems/" /><link rel="prev" href="https://douglasnavarro.me/posts/how_to_be_an_effective_team_player/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Don't just write code, solve problems",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/douglasnavarro.me\/posts\/dont_just_write_code_solve_problems\/"
+        },"genre": "posts","keywords": "software engineering, career","wordcount":  2176 ,
+        "url": "https:\/\/douglasnavarro.me\/posts\/dont_just_write_code_solve_problems\/","datePublished": "2021-01-21T14:38:25-03:00","dateModified": "2021-01-21T14:38:25-03:00","publisher": {
+            "@type": "Organization",
+            "name": "Douglas"},"author": {
+                "@type": "Person",
+                "name": "Douglas"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Douglas Navarro">Douglas Navarro</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Douglas Navarro">Douglas Navarro</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Don&#39;t just write code, solve problems</h1><h2 class="single-subtitle">Focus on problem-solving to improve your code skills</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Douglas</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-01-21">2021-01-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;2176 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;11 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80"
+        data-srcset="https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80, https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80 1.5x, https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80 2x"
+        data-sizes="auto"
+        alt="https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80"
+        title="https://images.unsplash.com/photo-1562975327-29a8cbfd5be6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1652&amp;q=80" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#problem-solving-is-not-a-gift">Problem-Solving Is Not a Gift</a></li>
+    <li><a href="#problem-solving-is-not-a-purely-intellectual-affair">Problem-Solving Is Not a Purely “Intellectual Affair”</a></li>
+    <li><a href="#the-procedure">The Procedure</a></li>
+    <li><a href="#1-understanding-the-problem">1. Understanding the Problem</a>
+      <ul>
+        <li><a href="#can-you-state-your-problem-in-one-sentence">Can you state your problem in one sentence?</a></li>
+        <li><a href="#are-there-constraints-to-be-satisfied">Are there constraints to be satisfied?</a></li>
+        <li><a href="#can-you-draw-a-figure-introduce-suitable-notation">Can you draw a figure? Introduce suitable notation</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-devising-a-plan">2. Devising a Plan</a>
+      <ul>
+        <li><a href="#do-you-know-a-related-problem"><strong>Do you know a related problem?</strong></a></li>
+        <li><a href="#could-you-restate-the-problem">Could you restate the problem?</a></li>
+        <li><a href="#if-you-cannot-solve-the-proposed-problem-try-to-solve-some-related-problem-first">If you cannot solve the proposed problem, try to solve some related problem first</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-carrying-out-the-plan">3. Carrying Out the Plan</a></li>
+    <li><a href="#4-looking-back">4. Looking Back</a></li>
+    <li><a href="#wrapping-up">Wrapping Up</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>You’ve gotten stuck so many times while coding. We all have. Some hard, nasty problem. Many conditions. Maybe this can be broken down into smaller problems. Maybe some dynamic programming could help. There must be some famous algorithm behind this.</p>
+<p>“I know I wouldn’t have a hard time writing this code. If only I had any idea of what code to write.”</p>
+<p>After being through this a few times, you start to notice patterns. Little strategies. There’s always some similar problem. A sketch always helps. All of these small things that don’t seem important but end up helping a lot.</p>
+<p>Well, it turns out someone discovered and shared most of those “little strategies” a long time ago. In 1954, to be more precise. The man was named George Polya, and he was an amazing mathematician. He devoted a considerable part of his career to figuring out systematic methods of problem-solving, discovery, and invention.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg"
+        data-srcset="https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg, https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg 1.5x, https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg 2x"
+        data-sizes="auto"
+        alt="https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg"
+        title="https://cdn-images-1.medium.com/max/2000/1*535GVq8cPLmDew9-EH-TeQ.jpeg" /></p>
+<p><em>Source: <a href="https://alchetron.com/George-P%C3%B3lya#george-plya-3444d963-5689-46f2-8523-cd6b0fdef4f-resize-750.jpeg" target="_blank" rel="noopener noreffer">Alchetron</a></em></p>
+<p>I’m not sure if Polya expected 21st-century software developers to read his work, but it has certainly helped me. And I’m sure it will keep being valuable for decades to come.</p>
+<p>Here’s what he has to say.</p>
+<h2 id="problem-solving-is-not-a-gift">Problem-Solving Is Not a Gift</h2>
+<blockquote>
+<p>“Solving problems is a practical skill like, let us say, swimming. We acquire any practical skill by imitation and practice. Trying to swim, you imitate what other people do with their hands and feet to keep their heads above water and, finally, you learn to swim by practicing swimming. Trying to solve problems, you have to observe and imitate what other people do when solving problems and, finally, you learn to do problems by doing them.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>Polya states this quite early in his book, and with good reason. You can&rsquo;t start learning this if you think it is only for some gifted, special people.</p>
+<h2 id="problem-solving-is-not-a-purely-intellectual-affair">Problem-Solving Is Not a Purely “Intellectual Affair”</h2>
+<blockquote>
+<p>“Teaching to solve problems is an education of the will. Solving problems which are not too easy for him, the student learns to persevere through unsuccess, to appreciate small advances, to wait for the essential idea, to concentrate with all his might when it appears.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>Determination and emotions play an important role when solving tough problems, as every software developer eventually will.</p>
+<p>According to Mr. Polya, a good problem-solver is determined, as sometimes this person will have no idea of how to even start solving the problem. It is also important to have small victories — that is, to be able to solve smaller or related problems as well as different parts of the same problem.</p>
+<h2 id="the-procedure">The Procedure</h2>
+<p>Whenever you’re going through the problem-solving process, keep these four steps in mind:</p>
+<ul>
+<li>
+<p>Understanding the problem.</p>
+</li>
+<li>
+<p>Devising a plan.</p>
+</li>
+<li>
+<p>Carrying out the plan.</p>
+</li>
+<li>
+<p>Looking back and reviewing.</p>
+</li>
+</ul>
+<h2 id="1-understanding-the-problem">1. Understanding the Problem</h2>
+<blockquote>
+<p>“It is foolish to answer a question that you do not understand. It is sad to work for an end you do not desire.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>Before trying to jump straight to solutions, it is important to have all of the elements of the problem laid out. This will help you achieve a better understanding.</p>
+<h3 id="can-you-state-your-problem-in-one-sentence">Can you state your problem in one sentence?</h3>
+<blockquote>
+<p>“Speaking and thinking are closely connected, the use of words assists the mind. Certain philosophers and philologists went a little further and asserted that the use of words is indispensable to the use of reason.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>This small exercise is very helpful for two things: convincing yourself you understood your goal and not spending too much energy with that understanding while you are focused on trying to solve it.</p>
+<p>Explaining the problem to someone else is also helpful. As written in <em>The Pragmatic Programmer</em>, “rubber duck” debugging is simply forcing yourself to have a clear enough understanding of the problem that you can teach it to someone else. This enables you to have an idea and move forward.</p>
+<h3 id="are-there-constraints-to-be-satisfied">Are there constraints to be satisfied?</h3>
+<blockquote>
+<p>“Therefore, let us, first of all, understand the problem as a whole. Having understood the problem,we shall be in a better position to judge which particular points may be the most essential. Having examined one or two essential points, we shall be in a better position to judge which further details might deserve closer examination. Let us go into detail and decompose the problem gradually, but not further than we need to.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>What are the boundaries of your problem? Write them down somewhere.</p>
+<p>It can be a comment above the first line of a function you’ve written. It can be a list of bullet points on top of your design doc. It’s important to have them under focus while trying to come up with a solution.</p>
+<p>Offloading multiple constraints from your brain is also a way of removing some of the balls from the “mental juggling” we do while trying to come up with a good idea.</p>
+<p>Also, be careful if there are too many constraints. According to Polya, if you consider too many details at once, you may lose yourself. They may distract you from giving sufficient attention to the main point or even from seeing the main point at all. “Think of the man who cannot see the forest for the trees.”</p>
+<h3 id="can-you-draw-a-figure-introduce-suitable-notation">Can you draw a figure? Introduce suitable notation</h3>
+<blockquote>
+<p>“An important step in solving a problem is to choose the notation. It should be done carefully. The time we spend now on choosing the notation may be well repaid by the time we save later by avoiding hesitation and confusion.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>This one is always a winner for me, especially when it&rsquo;s hard to wrap my head around some code-related problem. We all know we have to do some serious “mental juggling&quot; sometimes, and when this happens, having sketches always helps.</p>
+<p>That is because your drawings will help you offload some of those thoughts onto paper (physical or not) and make more room in your head to focus on the tricky parts. From flowcharts to block diagrams, any sort of notation will definitely help you understand things better.</p>
+<p><a href="https://miro.com" target="_blank" rel="noopener noreffer">Miro</a> has been my choice when doing this collectively with other people or if this understanding needs to be shared later.</p>
+<p>My trusty unruled notebook also never leaves my desk, as it’s great for quick, ugly sketches.</p>
+<p>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="noopener noreffer">Kelly Sikkema</a> on <img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn-images-1.medium.com/max/11136/0*gdByZuA4JzmXF5L6"
+        data-srcset="https://cdn-images-1.medium.com/max/11136/0*gdByZuA4JzmXF5L6, https://cdn-images-1.medium.com/max/11136/0*gdByZuA4JzmXF5L6 1.5x, https://cdn-images-1.medium.com/max/11136/0*gdByZuA4JzmXF5L6 2x"
+        data-sizes="auto"
+        alt="https://cdn-images-1.medium.com/max/11136/0*gdByZuA4JzmXF5L6"
+        title="&lt;a href=&#34;https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Unsplash&lt;/a&gt;." /><em>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="noopener noreffer">Kelly Sikkema</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="noopener noreffer">Unsplash</a>.</em></p>
+<h2 id="2-devising-a-plan">2. Devising a Plan</h2>
+<blockquote>
+<p>“We have a plan when we know, or know at least in outline, which calculations, computations, or constructions we have to perform in order to obtain the unknown. The way from understanding the problem to conceiving a plan may be long and tortuous. In fact, the main achievement in the solution of a problem is to conceive the idea of a plan.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>Although it is hard to even visualize which steps are required to solve your particular problem once you’ve understood it, Polya has come up with a few things that you can do to help get you started.</p>
+<p>One thing I’ll add here is this: Don’t mind the code initially. Solve the problem on paper first. Writing the code always seems easier in our heads and gets much trickier once you are trying to run it. Don’t do both things at the same time. First, solve the problem. “Run” an example on your notebook or on pseudo-code. Then, implement it for the machine.</p>
+<h3 id="do-you-know-a-related-problem"><strong>Do you know a related problem?</strong></h3>
+<blockquote>
+<p>“Good ideas are based on past experience and formerly acquired knowledge. Mere remembering is not enough for a good idea, but we cannot have a good idea without recollecting some pertinent facts.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>What Polya is suggesting here is that you need to know at least what kind of problem or family of problems you are dealing with. For software people, that will usually mean answering these questions:</p>
+<ul>
+<li>
+<p>Is this an architectural issue?</p>
+</li>
+<li>
+<p>Are there architectural patterns that are commonly used in this scenario?</p>
+</li>
+<li>
+<p>Is this problem more on the level of an algorithm?</p>
+</li>
+<li>
+<p>Are there battle-proven algorithms that solve this kind of problem?</p>
+</li>
+</ul>
+<p>You’ll know you’re there once you’re able to find a problem that’s related to yours and has been solved before. Then you must ask yourself, “Can I use it?” Many problems may have some point in common, but the ones that share the most essential requirements or premises will probably be the most helpful.</p>
+<h3 id="could-you-restate-the-problem">Could you restate the problem?</h3>
+<p>Can you look at the problem from a different perspective? There are multiple ways of doing so. Can you drop a part of the condition or some of the requirements? Can you state this problem under a more specific scenario?</p>
+<p>If you are writing tests, thinking of simple examples that are created just by specific conditions of the problem is great for gaining ground on your final, more general solution. This leads us to…</p>
+<h3 id="if-you-cannot-solve-the-proposed-problem-try-to-solve-some-related-problem-first">If you cannot solve the proposed problem, try to solve some related problem first</h3>
+<p>Or a related and also simpler problem. Like writing good software, exercising good problem-solving can be thought of as an incremental process. Don’t try doing everything at once. Building up your final code or even system design diagrams and ideas is a process that will benefit a lot from doing the same thing for smaller problems.</p>
+<p>Even if your final artifact, such as a Git commit or design doc, is not very obviously an evolution of the last one, the ideas that you used to create it certainly are.</p>
+<h2 id="3-carrying-out-the-plan">3. Carrying Out the Plan</h2>
+<blockquote>
+<p>“To devise a plan, to conceive the idea of the solution is not easy. It takes so much to succeed; formerly acquired knowledge, good mental habits, concentration upon the purpose, and one more thing: good luck. To carry out the plan is much easier; what is needed is mainly patience.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>The 21st-century-developer version of this is “Think first, code later.” Once you are done understanding the steps of your algorithm or system design, implementing it later will be so much easier.</p>
+<p>Polya states that good problem-solvers are capable of checking each step of their solution once it’s done and questioning it from start to end. From a purely analytical, mathematical line of thought, one wrong step destroys everything. This may not seem so immediately dangerous in software, but it can be just as deadly, as the nastier bugs will manifest themselves in the worst moments — and possibly under very specific circumstances.</p>
+<p>For us, this translates to having good test coverage. If you didn’t test it, you didn’t question it. That means you’ve presumptuously considered your solution perfect, which we know is never true. Having this “Will it break?” mindset of constantly trying to come up with all the various failure modes of your solution is always helpful and will be conveniently documented with tests if you care to write them.</p>
+<p>To summarize, convince yourself of the correctness of your solution.** **Don’t make that convincing all too easy.</p>
+<h2 id="4-looking-back">4. Looking Back</h2>
+<blockquote>
+<p>“Even fairly good students, when they have obtained the solution of the problem and written down neatly the argument, shut their books and look for something else. Doing so, they miss an important and instructive phase of the work. By looking back at the completed solution, by reconsidering and reexamining the result and the path that led to it, they could consolidate their knowledge and develop their ability to solve problems.” — George Polya, How to Solve It</p>
+</blockquote>
+<p>Not looking back and appreciating the trade-offs of your solution is something that happens a lot when things are done with too much haste.</p>
+<p>If it’s an algorithm, can you tell its time and space complexity? Does the code read well?</p>
+<p>If you are making decisions that will have a system-wide impact, please write down those trade-offs on a billboard if you have to. Spending one hour reexamining the outcome of your work will save you so much more later on. Take a break if you have to, come back to it later. Being deeply immersed in the problem you are solving will probably cause you to have tunnel vision and forget about relevant details.</p>
+<p>Also, it is possible that your solution to that particular problem *could *be generalized to be used in multiple scenarios. Think about that. Combined with good taste and careful thinking, creating new abstractions is a way of solving that problem for other people who encounter it.</p>
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>Polya’s <em>How to Solve It</em> is a book I’ll keep close to my desk during my entire career. Software engineering is a truly thought-intensive, problem-solving field and Polya’s timeless advice may help you in a time of need.</p>
+<p>The book contains not only the four-step framework for solving problems but many other pieces of precious advice that fit the creative professions of the 21st century very well.</p>
+<hr>
+<p><em>Cover photo by <a href="https://unsplash.com/@fletcher_pride?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="noopener noreffer">Fletcher Pride</a> on <a href="https://unsplash.com/?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="noopener noreffer">Unsplash</a>.</em></p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-01-21</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/software-engineering/">software engineering</a>,&nbsp;<a href="/tags/career/">career</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/how_to_be_an_effective_team_player/" class="prev" rel="prev" title="How to be an effective team player"><i class="fas fa-angle-left fa-fw"></i>How to be an effective team player</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
